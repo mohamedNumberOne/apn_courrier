@@ -1,0 +1,108 @@
+[30-Oct-2021 22:57:46 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[30-Oct-2021 22:57:46 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[30-Oct-2021 22:57:46 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[31-Oct-2021 22:45:03 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 22:45:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 22:45:03 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 22:45:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 22:45:03 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[31-Oct-2021 22:45:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[31-Oct-2021 23:17:52 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 23:17:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 23:17:52 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 23:17:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[31-Oct-2021 23:17:52 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[31-Oct-2021 23:17:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[01-Nov-2021 14:29:02 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[01-Nov-2021 14:29:02 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[01-Nov-2021 14:29:02 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[04-Nov-2021 00:03:11 UTC] PHP Notice:  Undefined variable: admin in /home/srtmbabn/public_html/admin/add_conttroller.php on line 235
+[04-Nov-2021 15:21:23 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[04-Nov-2021 15:21:23 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[04-Nov-2021 15:21:23 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 13:51:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('toufik', 'bekhouche', 't.bekhouche@ins...', '1234', '', '1', '1', '')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 13:51:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('toufik', 'bekhouche', 't.bekhouche@ins...', '1234', '', '1', '1', '1')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 13:54:49 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 13:54:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 13:54:49 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 13:54:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 13:54:49 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 13:54:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:23:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('', '', 'ha.meslem@insap...', 'h21', '', '1', '1', '1')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 15:25:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('', '', 'ha.meslem@insap...', 'h21', '', '1', '1', '1')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 15:25:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('', '', 'ha.meslem@insap...', 'h21', '', '1', '1', '1')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 15:25:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('', '', 'ha.meslem@insap...', 'h21', '', '1', '1', '1')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 15:25:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'super_admin' at row 1 in /home/srtmbabn/public_html/admin/admin.class.php:71
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/admin.class.php(71): PDOStatement->execute(Array)
+#1 /home/srtmbabn/public_html/admin/ajouter_admin.php(34): admin->add_admin('', '', 'ha.meslem@insap...', 'hamza21', '', '1', '1', '1')
+#2 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 71
+[06-Nov-2021 15:28:18 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:28:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:28:18 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:28:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:28:18 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:28:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:32:31 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:32:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:32:31 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:32:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:32:31 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:32:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:45:58 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:45:58 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:45:58 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:46:44 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:46:44 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:46:44 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:47:33 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:47:33 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:47:33 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 15:48:48 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:48:48 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 15:48:48 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[06-Nov-2021 20:10:05 UTC] PHP Notice:  Undefined index: nom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 20:10:05 UTC] PHP Notice:  Undefined index: pnom in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[06-Nov-2021 20:10:05 UTC] PHP Notice:  Undefined index: email in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[07-Nov-2021 11:00:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/srtmbabn/public_html/admin/admin.class.php:25
+Stack trace:
+#0 /home/srtmbabn/public_html/admin/index.php(23): admin->connect_admin('abdenouryacine@...', 'Anha@10541O8dz@...')
+#1 {main}
+  thrown in /home/srtmbabn/public_html/admin/admin.class.php on line 25
+[08-Nov-2021 15:25:51 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[08-Nov-2021 15:25:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[08-Nov-2021 15:25:51 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[08-Nov-2021 15:25:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 29
+[08-Nov-2021 15:25:51 UTC] PHP Notice:  Undefined variable: _SESSION in /home/srtmbabn/public_html/admin/welcome.php on line 30
+[08-Nov-2021 15:25:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/srtmbabn/public_html/admin/welcome.php on line 30

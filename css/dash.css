@@ -1,0 +1,69 @@
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 0 5px #b6b6b6;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.detail {
+  width: 120px;
+  padding-top: 20px;
+}
+
+.pilier {
+  position: relative;
+  width: 50px;
+  height: 150px;
+  border: 1px solid gray;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.pourcentage {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: gray;
+  z-index: 1;
+}
+
+.detail .title {
+  text-align: center;
+}
+
+.pourcentage {
+  animation: pourcentage 0.6s linear 1;
+}
+
+@keyframes pourcentage {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .detail {
+    width: 100px;
+  }
+
+  .pilier {
+    width: 30px;
+  }
+
+  .detail .title {
+    font-size: 14px;
+  }
+}
+
+
